@@ -14,7 +14,7 @@ You have been hired by SomeAnalytics to analyse 500,000 tweets related to ChatGP
 
 SomeCompany want you to identify who are the most 10 mentioned Twitter accounts in the dataset and what are the 20 most used hashtags in the dataset.
 
-The output here should be a table containing the Twitter handle or hashtag along with the number and % of tweets they appear in.
+The output here should visualise the top handles and hashtag by the number and % of tweets they appear in.
 
 ### Technical issues detection
 
@@ -32,7 +32,7 @@ Your job is to train a binary classifier capable of analysing a tweet related to
 
 In addition to the ask in part 2, SomeCompany are interested in training additional models on this data in the future. Before they do this however, they want to get an idea of what are the 3 most common things users speak about when tweeting about ChatGPT.
 
-To achieve this you should perform some analysis on the content of each tweet (or a subset of them) and identify the 3 largest meaningful topics SomeCompany could go after next and roughly what % of the data these topics make up.
+To achieve this you should perform some analysis on the content of each tweet (or a subset of them) and identify the 3 largest meaningful topics SomeCompany could go after next and roughly what % of the data these topics.
 
 # The dataset
 
@@ -44,6 +44,6 @@ The dataset supplied for this task is based on the ["500k ChatGPT-related Tweets
 
 # Submission
 
-Please submit workings as a **private** git repository that we can clone, with results embedded, or with code that we can run locally to generate the required output.
+Please submit your code along with a presentation of your results with some discussion on your approach to each task as a **private** git repository that we can clone.
 
 Please note that there is a vast number of messages in this dataset, if processing time becomes an issue, feel free to use a subset of the data to reduce the time required.
