@@ -8,13 +8,7 @@ You are required to read the challenge below, and submit a Jupyter notebook (or 
 
 SomeAnalytics Company are a fictional company who specialise in analysing, and classifying social media data related to a particular topic and sell insights on to businesses who may be interested.
 
-You have been hired by SomeAnalytics to analyse 500,000 tweets related to ChatGPT between January and March 2023 and help them with the following three asks they are seeing demand for among their clients:
-
-### Key Players and hashtags
-
-SomeCompany want you to identify who are the most 10 mentioned Twitter accounts in the dataset and what are the 20 most used hashtags in the dataset.
-
-The output here should visualise the top handles and hashtag by the number and % of tweets they appear in.
+You have been hired by SomeAnalytics to analyse 500,000 tweets related to ChatGPT between January and March 2023 and help them with the following two questions they are seeing demand for among their clients:
 
 ### Technical issues detection
 
@@ -30,7 +24,7 @@ Your job is to train a binary classifier capable of analysing a tweet related to
 
 ### Recommendations for additional topics
 
-In addition to the ask in part 2, SomeCompany are interested in training additional models on this data in the future. Before they do this however, they want to get an idea of what are the 3 most common things users speak about when tweeting about ChatGPT.
+SomeCompany are also interested in training additional models on this data in the future. Before they do this however, they want to get an idea of what are the 3 most common things users speak about when tweeting about ChatGPT.
 
 To achieve this you should perform some analysis on the content of each tweet (or a subset of them) and identify the 3 largest meaningful topics SomeCompany could go after next and roughly what % of the data these topics.
 
